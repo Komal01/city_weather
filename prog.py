@@ -9,9 +9,9 @@ def main():
 
     #pprint(weather)
 
-    print "\n#######weather condotions#######\n"
+    print "\n#######weather conditions#######\n"
     print 'location > {} \t  lat={},long={}'.format(weather['sys']['country'],weather['coord']['lat'],weather['coord']['lon'])
-    print '\ntemprature > {} c'.format(weather['main']['temp'])
+    print '\ntemperature > {} c'.format(weather['main']['temp'])
     print '\npressure > {} mm Hg \t humidity > {} percent'.format(weather['main']['humidity'],weather['main']['humidity'])
     print 'weather condition > {}'.format(weather['weather'][0]['description'])
 
